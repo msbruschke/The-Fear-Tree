@@ -28,6 +28,8 @@ addLayer("p", {
 	effect() {
 		return new Decimal(0)
 	},
+	effectDescription: "Rot",
+	//effectDisplay() {return "rot: " format(effect(this.layer))},
 	upgrades: {
 		11: {
 			title: "Worm!",
