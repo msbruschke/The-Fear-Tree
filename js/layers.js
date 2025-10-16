@@ -27,7 +27,9 @@ addLayer("p", {
     layerShown(){return true},
 	upgrades: {
 		11: {
-
+			title: "Worm!",
+    		description: "Double your point gain.",
+    		cost: new Decimal(3),
         },
     },
 })
