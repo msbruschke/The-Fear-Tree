@@ -33,7 +33,7 @@ addLayer("p", {
         },
 		12: {
 			title: "Nest!",
-    		description: "+2 to your point gain.",
+    		description: "Point gain scales with Corrupt Power.",
     		cost: new Decimal(3),
 			effect() {
         		return player[this.layer].points.add(1).pow(0.5)
