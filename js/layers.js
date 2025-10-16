@@ -28,7 +28,7 @@ addLayer("p", {
 	effect() {
 		return new Decimal(0)
 	},
-	effectDescription: "Rot" + format(effect(this.layer)),
+	effectDescription() {return "Rot" + format(this.effect)},
 	//effectDisplay() {return "rot: " format(effect(this.layer))},
 	upgrades: {
 		11: {
